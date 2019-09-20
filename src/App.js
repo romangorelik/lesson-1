@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+
+import HomePage from './Homepage.jsx'
+
 import './App.css';
 
 class App extends Component {
   render() {
-    return <div className='App'>Hello World</div>;
+    return (
+      <div>
+        <HomePage />
+      </div>
+    )
   }
 }
 
